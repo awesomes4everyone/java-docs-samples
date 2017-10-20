@@ -55,10 +55,12 @@ dependencies {
     // [END api_management]
 }
 
+// [START endpoints_plugin_config]
 endpointsServer {
   // Endpoints Framework Plugin server-side configuration
   hostname = "${projectId}.appspot.com"
 }
+// [START endpoints_plugin_config]
 
 appengine {  // App Engine tasks configuration
   deploy {   // deploy configuration
